@@ -1,1 +1,5 @@
 "# My Project"
+"## GitHub Preparartion" 
+"-Account: DatBonnyMan"
+"- Email: tij46@yahoo.com"
+"-Ready for Day 2 at 6AM" 
