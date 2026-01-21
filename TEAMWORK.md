@@ -1,10 +1,2 @@
-"## Teammate Contribution" 
-"Added by: Teammate Jane" 
-"Date: $(date)" 
-"## Team Collaboration" 
-"This section was added by a teammate via Pull Request." 
-"" 
-"### Changes made:" 
-"- Added collaboration documentation" 
-"- Improved project documentation" 
-"- Followed team coding standards" 
+## Team Collaboration 
+This section was added by a teammate via Pull Request. 
