@@ -1,0 +1,7 @@
+"# PR Practice File" 
+"Created for GitHub Pull Request demonstration" 
+"" 
+"## Learning Objectives:" 
+"- Practice PR workflow" 
+"- Understand code review process" 
+"- Learn GitHub collaboration" 
