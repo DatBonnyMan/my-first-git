@@ -47,3 +47,27 @@
  
 "*Last updated: $(date)*" 
 "*Git/GitHub Learning Exercise*" 
+ 
+"---" 
+"## Enhanced PR Workflow Details" 
+ 
+"### Best Practices:" 
+"- **Branch Naming**: Use \`feature/\`, \`bugfix/\`, \`hotfix/\` prefixes" 
+"- **Commit Messages**: Follow conventional commits format" 
+"- **PR Descriptions**: Include what, why, and testing steps" 
+"- **Code Review**: Request at least one reviewer" 
+ 
+"### Review Checklist:" 
+"- [ ] Code follows team standards" 
+"- [ ] Tests added/updated" 
+"- [ ] Documentation updated" 
+"- [ ] No breaking changes" 
+"- [ ] All checks passing" 
+ 
+"### Merge Strategies:" 
+"1. **Merge Commit**: Preserves full history" 
+"2. **Squash and Merge**: Single clean commit" 
+"3. **Rebase and Merge**: Linear history" 
+ 
+"*Last updated: $(date)*" 
+"*Git/GitHub Learning Exercise*" 
