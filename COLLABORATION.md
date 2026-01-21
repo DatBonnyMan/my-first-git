@@ -1,8 +1,11 @@
 # Team Collaboration Guide 
 "" 
 "## How Our Team Works" 
+"" 
+"### Pull Request Process:" 
 "1. Create feature branch from \`main\`" 
-"2. Make changes and commit"  "3. Push to GitHub" 
+"2. Make changes and commit" 
+"3. Push to GitHub" 
 "4. Create Pull Request" 
 "5. Get code review from teammates" 
 "6. Address feedback if needed" 
@@ -15,3 +18,80 @@
 "- **Teammate Sam** (Backend)" 
 "" 
 "*Documentation added via GitHub Pull Request workflow*" 
+ 
+--- 
+"## Update: $(date)" 
+"Enhanced with complete PR workflow details." 
+"Practice exercise for Git/GitHub learning journey." 
+ 
+"---" 
+"## Enhanced PR Workflow Details" 
+ 
+"### Best Practices:" 
+"- **Branch Naming**: Use \`feature/\`, \`bugfix/\`, \`hotfix/\` prefixes" 
+"- **Commit Messages**: Follow conventional commits format" 
+"- **PR Descriptions**: Include what, why, and testing steps" 
+"- **Code Review**: Request at least one reviewer" 
+ 
+"### Review Checklist:" 
+"- [ ] Code follows team standards" 
+"- [ ] Tests added/updated" 
+"- [ ] Documentation updated" 
+"- [ ] No breaking changes" 
+"- [ ] All checks passing" 
+ 
+"### Merge Strategies:" 
+"1. **Merge Commit**: Preserves full history" 
+"2. **Squash and Merge**: Single clean commit" 
+"3. **Rebase and Merge**: Linear history" 
+ 
+"*Last updated: $(date)*" 
+"*Git/GitHub Learning Exercise*" 
+ 
+"---" 
+"## Enhanced PR Workflow Details" 
+ 
+"### Best Practices:" 
+"- **Branch Naming**: Use \`feature/\`, \`bugfix/\`, \`hotfix/\` prefixes" 
+"- **Commit Messages**: Follow conventional commits format" 
+"- **PR Descriptions**: Include what, why, and testing steps" 
+"- **Code Review**: Request at least one reviewer" 
+ 
+"### Review Checklist:" 
+"- [ ] Code follows team standards" 
+"- [ ] Tests added/updated" 
+"- [ ] Documentation updated" 
+"- [ ] No breaking changes" 
+"- [ ] All checks passing" 
+ 
+"### Merge Strategies:" 
+"1. **Merge Commit**: Preserves full history" 
+"2. **Squash and Merge**: Single clean commit" 
+"3. **Rebase and Merge**: Linear history" 
+ 
+"*Last updated: $(date)*" 
+"*Git/GitHub Learning Exercise*" 
+ 
+"---" 
+"## Enhanced PR Workflow Details" 
+ 
+"### Best Practices:" 
+"- **Branch Naming**: Use \`feature/\`, \`bugfix/\`, \`hotfix/\` prefixes" 
+"- **Commit Messages**: Follow conventional commits format" 
+"- **PR Descriptions**: Include what, why, and testing steps" 
+"- **Code Review**: Request at least one reviewer" 
+ 
+"### Review Checklist:" 
+"- [ ] Code follows team standards" 
+"- [ ] Tests added/updated" 
+"- [ ] Documentation updated" 
+"- [ ] No breaking changes" 
+"- [ ] All checks passing" 
+ 
+"### Merge Strategies:" 
+"1. **Merge Commit**: Preserves full history" 
+"2. **Squash and Merge**: Single clean commit" 
+"3. **Rebase and Merge**: Linear history" 
+ 
+"*Last updated: Wed 01/21/2026 17:52:03.84" 
+"*Git/GitHub Learning Exercise*" 
