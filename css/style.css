@@ -35,3 +35,7 @@ header {
 }  
 "/* Emergency hotfix */" 
 ".hotfix { color: red; }" 
+/* URGENT FIX */ 
+.button { 
+    background-color: #2980b9 !important; 
+} 
