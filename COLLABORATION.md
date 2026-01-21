@@ -1,8 +1,11 @@
 # Team Collaboration Guide 
 "" 
 "## How Our Team Works" 
+"" 
+"### Pull Request Process:" 
 "1. Create feature branch from \`main\`" 
-"2. Make changes and commit"  "3. Push to GitHub" 
+"2. Make changes and commit" 
+"3. Push to GitHub" 
 "4. Create Pull Request" 
 "5. Get code review from teammates" 
 "6. Address feedback if needed" 
