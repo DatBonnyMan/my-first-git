@@ -33,3 +33,5 @@
 header {  
     text-align: center;  
 }  
+"/* Emergency hotfix */" 
+".hotfix { color: red; }" 
