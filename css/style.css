@@ -160,3 +160,53 @@
 "    text-decoration: none;" 
 "    display: inline-block;" 
 "}" 
+ 
+/* Enhanced Styles - Option B */ 
+ 
+:root { 
+    --primary: #3498db; 
+    --secondary: #2c3e50; 
+    --accent: #e74c3c; 
+    --light: #ecf0f1; 
+    --dark: #2c3e50; 
+} 
+ 
+/* Enhanced Navigation */ 
+.nav-menu a { 
+    transition: color 0.3s ease; 
+    padding: 0.5rem 1rem; 
+    border-radius: 4px; 
+} 
+ 
+.nav-menu a:hover { 
+    color: var(--primary); 
+    background: rgba(255,255,255,0.1); 
+} 
+ 
+/* Enhanced Hero Section */ 
+.hero { 
+    background: linear-gradient(135deg, var(--secondary), var(--primary)); 
+    color: white; 
+    padding: 6rem 2rem; 
+    text-align: center; 
+} 
+ 
+/* Enhanced Project Cards */ 
+.project-card { 
+    border: 2px solid transparent; 
+    transition: all 0.3s ease; 
+} 
+ 
+.project-card:hover { 
+    border-color: var(--primary); 
+    box-shadow: 0 8px 16px rgba(52, 152, 219, 0.2); 
+} 
+ 
+.project-link { 
+    background: var(--primary); 
+    color: white !important; 
+    padding: 0.5rem 1rem; 
+    border-radius: 4px; 
+    text-decoration: none; 
+    display: inline-block; 
+} 
