@@ -1,8 +1,8 @@
-// Portfolio JavaScript - Interactive Features 
+// Portfolio Interactive JavaScript 
  
-// Smooth scrolling for navigation links 
-document.querySelectorAll('a[href=\"#\"]').forEach(anchor =
-    anchor.addEventListener('click', function (e) { 
+// Smooth scrolling for navigation 
+document.querySelectorAll('a[href="#"]').forEach(anchor =
+    anchor.addEventListener('click', function(e) { 
         e.preventDefault(); 
         const targetId = this.getAttribute('href'); 
         if(targetId === '#') return; 
@@ -17,9 +17,4 @@ document.querySelectorAll('a[href=\"#\"]').forEach(anchor =
 }); 
  
 // Project interaction logging 
-document.querySelectorAll('.project-card').forEach(card =
-    card.addEventListener('click', function() { 
-        const projectTitle = this.querySelector('h3').textContent; 
-        console.log('Project viewed:', projectTitle); 
-    }); 
-}); 
+console.log('Portfolio JavaScript loaded!'); 
