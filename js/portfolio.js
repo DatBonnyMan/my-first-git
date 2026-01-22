@@ -17,4 +17,5 @@ document.querySelectorAll('a[href="#"]').forEach(anchor =
 }); 
  
 // Project interaction logging 
-console.log('Portfolio JavaScript loaded!'); 
+console.log('Portfolio JavaScript loaded successfully!'); 
+console.log('Total projects: ' + document.querySelectorAll('.project-card').length); 
