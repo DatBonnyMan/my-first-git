@@ -309,3 +309,11 @@
     background: linear-gradient(90deg, #3498db, #2980b9); 
     border-radius: 5px; 
 } 
+ 
+/* ===== SKILLS SECTION ===== */ 
+.skills-container { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 2rem; 
+    margin-top: 2rem; 
+} 
