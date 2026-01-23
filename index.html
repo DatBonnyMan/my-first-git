@@ -1,13 +1,98 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> 
-    <meta http-equiv="Pragma" content="no-cache"> 
-    <meta http-equiv="Expires" content="0"> 
-<body> 
-<nav>Navigation Here</nav> 
-<h1>Portfolio - No ECHO text</h1> 
-</body> 
-</html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DatBonnyMan - Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">DatBonnyMan</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">DatBonnyMan</span></h1>
+                <p>Full Stack Developer and Git Expert</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+        
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Git Learning Repository</h3>
+                    <p>Complete Git/GitHub learning journey with professional workflow.</p>
+                    <a href="https://github.com/DatBonnyMan/my-first-git" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This responsive portfolio built with HTML, CSS, and Git best practices.</p>
+                    <a href="#" class="project-link">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>JavaScript Calculator</h3>
+                    <p>Interactive calculator with modern UI and error handling.</p>
+                    <a href="#" class="project-link">Try Calculator</a>
+                </div>
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>Real-time weather application using API integration.</p>
+                    <a href="#" class="project-link">Check Weather</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>Get In Touch</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 DatBonnyMan. Built with ❤️ and Git mastery.</p>
+    </footer>
+</body>
+</html>
