@@ -405,3 +405,63 @@ footer {
         background: rgba(255, 255, 255, 0.1); 
     } 
 } 
+/* Project Filter Buttons */ 
+.projects-filter { 
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    margin: 30px 0; 
+    flex-wrap: wrap; 
+} 
+.filter-btn { 
+    padding: 8px 20px; 
+    background: white; 
+    border: 2px solid #ccc; 
+    border-radius: 25px; 
+    color: #333; 
+    font-weight: 500; 
+    cursor: pointer; 
+} 
+.filter-btn:hover { 
+    border-color: #2563eb; 
+    color: #2563eb; 
+} 
+.filter-btn.active { 
+    background: #2563eb; 
+    color: white; 
+    border-color: #2563eb; 
+} 
+ 
+/* PROJECT FILTER BUTTONS */ 
+.projects-filter { display: flex; justify-content: center; gap: 12px; margin: 25px 0 35px; flex-wrap: wrap; } 
+.filter-btn { padding: 10px 24px; background: #2563eb; color: white; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s; } 
+.filter-btn:hover { background: #1d4ed8; transform: translateY(-2px); } 
+.filter-btn.active { background: #1e40af; box-shadow: 0 4px 12px rgba(30,64,175,0.4); } 
+ 
+/* ===== PROJECT FILTER BUTTONS ===== */ 
+.projects-filter { 
+    display: flex; 
+    justify-content: center; 
+    gap: 12px; 
+    margin: 25px 0 35px; 
+    flex-wrap: wrap; 
+} 
+.filter-btn { 
+    padding: 10px 24px; 
+    background: #2563eb; 
+    color: white; 
+    border: none; 
+    border-radius: 30px; 
+    font-weight: 600; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+} 
+.filter-btn:hover { 
+    background: #1d4ed8; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3); 
+} 
+.filter-btn.active { 
+    background: #1e40af; 
+    box-shadow: 0 4px 12px rgba(30, 64, 175, 0.4); 
+} 
