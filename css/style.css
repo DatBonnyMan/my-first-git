@@ -319,3 +319,37 @@ footer {
   border-color: var(--primary); 
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1); 
 } 
+/* ===== ENHANCED FEATURES ===== */ 
+/* Smooth Scroll Active State */ 
+.nav-menu a { 
+    transition: color 0.3s ease; 
+} 
+.nav-menu a.active { 
+    color: var(--accent) !important; 
+    font-weight: 600; 
+} 
+/* Form Validation Styles */ 
+.contact-form input.input-error, 
+.contact-form textarea.input-error { 
+    border-color: #ef4444 !important; 
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1) !important; 
+} 
+.error-message { 
+    color: #ef4444; 
+    font-size: 0.85rem; 
+    margin-top: 0.25rem; 
+    margin-bottom: 0.5rem; 
+} 
+.success-message { 
+    background: #10b981; 
+    color: white; 
+    padding: 1rem; 
+    border-radius: 8px; 
+    margin-top: 1rem; 
+    text-align: center; 
+    animation: fadeIn 0.5s ease; 
+} 
+@keyframes fadeIn { 
+    from { opacity: 0; transform: translateY(10px); } 
+    to { opacity: 1; transform: translateY(0); } 
+} 
