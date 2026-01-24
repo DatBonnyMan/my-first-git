@@ -34,15 +34,12 @@
         
         <section id="projects" class="section">
             <h2>My Learning Journey</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>My First Portfolio</h3>
-                    <p>This responsive portfolio website built with HTML, CSS, and Git. My first step into web development!</p>
-                    <div class="tech-tags">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">Git</span>
-                    </div>
+<div class="projects-filter">
+    <button class="filter-btn active" data-filter="all">All Projects</button>
+    <button class="filter-btn" data-filter="html">HTML/CSS</button>
+    <button class="filter-btn" data-filter="git">Git/GitHub</button>
+    <button class="filter-btn" data-filter="python">Python</button>
+</div>
                     <a href="https://github.com/DatBonnyMan/my-first-git" target="_blank" class="project-link">View on GitHub</a>
                 </div>
                 
@@ -152,3 +149,10 @@
 </body>
 </html><script src="js/script.js"></script> 
 <button id="theme-toggle" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background: #2563eb; color: white; border: none; border-radius: 50px; cursor: pointer; font-weight: bold; z-index: 1000; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">?? Dark Mode</button> 
+<div class="projects-filter">
+    <button class="filter-btn active" data-filter="all">All Projects</button>
+    <button class="filter-btn" data-filter="html">HTML/CSS</button>
+    <button class="filter-btn" data-filter="git">Git/GitHub</button>
+    <button class="filter-btn" data-filter="python">Python</button>
+</div>
+<script src="js/filter.js"></script> 
